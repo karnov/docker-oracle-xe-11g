@@ -27,7 +27,7 @@ ENV DEFAULT_SYS_PASS oracle
 
 EXPOSE 1521
 EXPOSE 8080
-VOLUME ["/u01/app/oracle"]
+# VOLUME ["/u01/app/oracle"]
 
 ENV processes 500
 ENV sessions 555
